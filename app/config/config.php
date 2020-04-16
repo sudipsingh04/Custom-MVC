@@ -7,4 +7,4 @@ define ('APPROOT', dirname(dirname(__FILE__)));
 define('URLROOT', 'http://localhost/custom_mvc');
 
 // Site Name
-define('SITENAME', 'Custom_MVC');
+define('SITENAME', 'CustomMVC');
