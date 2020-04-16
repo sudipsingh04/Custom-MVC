@@ -12,7 +12,7 @@
         require_once '../app/models/'.$model.'.php';
 
         // instantiate model
-        require new $model();
+        return new $model();
     }
 
     // Load view
