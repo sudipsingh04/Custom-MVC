@@ -7,7 +7,8 @@ class Pages extends Controller{
 
     public function index()
     {
-        $this->view('pages/index', ['title' => 'Welcome']);
+        $posts = $this->postModel->getPosts();
+        $this->view('pages/index', ['title' => 'Welcome', 'posts' => $posts]);
     }
 
     public function about()
