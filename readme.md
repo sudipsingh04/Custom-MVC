@@ -1,6 +1,6 @@
 # Custom PHP 🛰 MVC
 
-This is a a simple PHP model-view-controller It's free and open-source.
+This is a simple PHP model-view-controller It's free and open-source.
 
 ## Usage
 
